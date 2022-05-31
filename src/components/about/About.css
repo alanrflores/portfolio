@@ -1,0 +1,30 @@
+.about-container{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 80vh;
+    padding: 100px 0 100px 0;
+}
+
+.about-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    padding: 0 100px 0 100px;
+}
+.about-description > h3 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.about-description > p {
+    line-height: 1.5;
+
+}
+
+ .about-imagen{
+    width: 600px;
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+} 
