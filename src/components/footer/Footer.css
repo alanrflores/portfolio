@@ -21,6 +21,7 @@
   width: 70%;
   margin: 0 auto;
 }
+
 .footer-sns {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -66,6 +67,7 @@
         padding: 90px 0 90px 0;
         font-size: 20px;
     }
+
     .footer-sns{
         grid-template-columns: 1fr;
         text-align: center;

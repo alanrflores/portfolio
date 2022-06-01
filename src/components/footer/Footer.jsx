@@ -8,8 +8,9 @@ const Footer = () => {
         <p>Argentina, Buenos Aires</p>
       </div>
       <div className="footer-contact">
-        <h3>Contacto</h3>
+        <h3>Contacto : <span>+541123517231</span> </h3>
       </div>
+      
       <div className="footer-sns">
         <div className="design-by">Diseñado por Alan</div>
         <div className="sns-link">
