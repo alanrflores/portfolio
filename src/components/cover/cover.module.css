@@ -20,12 +20,12 @@
 }
 
 .containerCover > h1 {
-    color: wheat;
+    color: rgb(255, 255, 255);
     font-size: 100px;
 }
 
 .containerCover > p {
     margin-top: 10px;
-    color: wheat;
+    color: rgb(255, 255, 255);
     font-size: 30px;
 }
