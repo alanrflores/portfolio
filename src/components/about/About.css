@@ -28,3 +28,31 @@
     align-content: center;
     overflow: hidden;
 } 
+
+@media only screen and (max-width: 960px) {
+  .about-container{
+      flex-direction: column;
+      padding: 0;
+      height: auto;
+  }
+  .about-description {
+      width: 85%;
+      margin: 0 auto;
+      padding: 40px 20px 50px 20px;
+  }
+  .about-description > h3 {
+    text-align: center;
+    font-size:25px;
+   
+  }
+  .about-description > p {
+    text-align: center;
+  }
+  .about-imagen {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .about-imagen > img {
+      width: 100%;
+  }
+}

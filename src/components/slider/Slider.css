@@ -50,3 +50,20 @@ padding: 0 70px 0 70px;
     font-size: 20px;
     padding: 10px 0 10px 10px;
 }
+@media only screen and (max-width: 960px ){
+    .slider-container {
+        flex-direction: column;
+    }
+    .slider-title {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0 10px 0;
+    }
+    .carousel-container{
+        width: 400px;
+    }
+    .carousel-img  {
+        width: 400px; 
+      
+    }
+}

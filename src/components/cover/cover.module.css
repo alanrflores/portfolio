@@ -29,3 +29,17 @@
     color: rgb(255, 255, 255);
     font-size: 30px;
 }
+
+@media only screen and (max-width: 960px) {
+    .containerCover > h1 {
+        text-align: center;
+        font-size: 70px;
+    }
+    .containerCover > p {
+        margin-top: 10px;
+        font-size: 25px;
+        width: 85%;
+        text-align: center;
+    }
+
+}
