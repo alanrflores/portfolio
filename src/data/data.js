@@ -1,17 +1,20 @@
 export const data = [
   {
-    src: "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg",
+    src: "https://www.xtrafondos.com/wallpapers/resized/la-vida-de-deadpool-10037.jpg?s=large",
     alt: "Proyect 1",
-    description: "Proyect 1",
+    description: "1- Juegos Ecommerce",
+  
   },
   {
-    src: "https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg",
+    src: "https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-con-sables-de-luz-9229.jpg?s=large",
     alt: "Proyect 2",
-    description: "Proyect 2",
+    description: "2- Buscador de Rick&Morty",
+    
   },
   {
-    src: "https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg",
+    src: "https://www.xtrafondos.com/wallpapers/resized/pikachu-y-raichu-6885.jpg?s=large",
     alt: "Proyect 3",
-    description: "Proyect 3",
+    description: "3- Poke Api",
+   
   },
 ];

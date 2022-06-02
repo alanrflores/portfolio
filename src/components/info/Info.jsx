@@ -7,7 +7,6 @@ const Info = () => {
     <div className='info'>
     <h1>Trabajemos juntos y creamos algo único</h1>
     </div>
-      
     </div>
   )
 }
