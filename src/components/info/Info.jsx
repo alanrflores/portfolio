@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <div className='info-container'>
     <div className='info'>
-    <h1>Trabajemos juntos y creamos algo único</h1>
+    <h1>Trabajemos juntos</h1>
     </div>
     </div>
   )
