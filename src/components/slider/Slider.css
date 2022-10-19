@@ -119,7 +119,7 @@ padding: 0 70px 0 70px;
     .carousel-p {
         color: white;
         font-size: 12px;
-        padding: 10px 0 10px 10px;
+  
     }
     .carousel button{
         font-size: 9px;
@@ -137,19 +137,12 @@ padding: 0 70px 0 70px;
         object-fit: contain;
         border-radius: 12px;
     } 
-    @keyframes animate{
-        0%, 10%, 100%{
-         width: 0;
-        }
-        60% ,70%, 90%{
-           width: 55%;
-        }
-       }
+    
 }
 @media (min-width: 767px) and (max-width: 1024px) {
 
     .slider-title{
-        width: 32%;
+        width: 10%;
         padding: 0 70px 0 70px;
         } 
        

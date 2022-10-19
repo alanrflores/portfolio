@@ -6,7 +6,7 @@ export const data = [
    
   },
   {
-    src: "imagensound.png",
+    src: "alan2.png",
     alt: "Proyect 2",
     description: "2- Social-sound-app",
     

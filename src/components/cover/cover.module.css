@@ -56,11 +56,10 @@
         font-size: 60px;
     }
     .containerCover > p {
-        margin-top: 6px;
+
         font-size: 16px;
         width: 330px;
-        text-align: center;
-        position: relative;
+
     }
     .containerCover > p::before{
         content: attr(data-text);
@@ -95,15 +94,22 @@
        
        }
        
+       .video{
+           height: 100vh;
+           width: 100%;
+           object-fit: cover;
+           position:absolute;
+           z-index: -1;
+       
+       }
+       
+   
     .containerCover > h1 {
-        text-align: center;
-        font-size: 60px;
+        font-size: 50px;
     }
     .containerCover > p {
-        margin-top: 6px;
         font-size: 27px;
-        width: 600px;
-        text-align: center;
-        position: relative;
+        width: 500px;
+
     }
 } 
