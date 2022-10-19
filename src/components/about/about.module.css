@@ -1,0 +1,196 @@
+.divBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #333
+}
+
+.card{
+    position: relative;
+    width: 330px;
+    height: 220px;
+    background: rgb(252, 252, 252);
+    transition: 0.5s;
+}
+.card:hover{
+  width: 800px;
+  height: 620px;
+}
+
+.card .lines{
+  position: absolute;
+  inset: 0;
+  background: #000;
+  overflow: hidden;
+  
+}
+.card .lines::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 100px;
+  background: linear-gradient(transparent, #45f3ff,#45f3ff,#45f3ff, transparent);
+  animation: animate 6s linear infinite;
+
+}
+@keyframes animate {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100%{
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.card .lines::after{
+  content:"";
+  position: absolute;
+  inset: 3px;
+  background: #292929;
+}
+
+.card .imgBox{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 280px;
+  background: rgb(9, 9, 9);
+  transition: 0.5s;
+  z-index: 10;
+  overflow: hidden;
+}
+.card .imgBox:hover{
+  width: 400px;
+  height: 400px;
+}
+.card .imgBox::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(transparent, #ff3c7b,#ff3c7b,#ff3c7b, transparent);
+  animation: animate2 4s linear infinite;
+
+}
+@keyframes animate2 {
+  0%{
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  100%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+.card .imgBox::after{
+  content:"";
+  position: absolute;
+  inset: 3px;
+  background: #292929;
+}
+.card .imgBox img{
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  object-fit: contain;
+  width: calc(100% - 18px);
+  width: calc(100% - 18px);
+  filter: grayscale(1);
+}
+
+.card .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  color: aliceblue;
+}
+
+.card .content .details{
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  transition: 0.5s;
+  transform: translateY(145px);
+}
+.card .content .details h2{
+  font-size: 1.8em;
+  font-weight: bold;
+  color:rgb(0, 139, 193);
+  line-height: 1.2em;
+}
+
+.card .content .details h2 span{
+  font-size: 0.75em;
+  font-weight: 500;
+  color: #fff;
+}
+
+.card .content .details .data{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.card:hover .content .details{
+  transform: translateY(0px);
+}
+
+
+@media only screen and (max-width: 766px) {
+  .card{
+    position: relative;
+    width: 300px;
+    height: 170px;
+    background: rgb(252, 252, 252);
+    transition: 0.5s;
+}
+.card .imgBox{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  height: 280px;
+  background: rgb(9, 9, 9);
+  transition: 0.5s;
+  z-index: 10;
+  overflow: hidden;
+}
+.card .imgBox:hover{
+  width: 280px;
+  height: 293px;
+}
+  
+.card .content .details{
+  padding: 5px;
+  width: 100%;
+  
+}
+.card .content .details h2{
+  font-size: 1em;
+  margin-top: 10px;
+  font-weight: bold;
+  color:rgb(0, 139, 193);
+  line-height: 1.2em;
+}
+
+.card .content .details span{
+  font-size: 0.60em;
+}
+.card .content .details .data{
+  display: flex;
+  justify-content: space-around;
+  margin: 2px 0;
+  font-size: small;
+}
+};

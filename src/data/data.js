@@ -1,20 +1,20 @@
 export const data = [
   {
-    src: "https://www.xtrafondos.com/wallpapers/resized/la-vida-de-deadpool-10037.jpg?s=large",
+    src: "https://pngimage.net/wp-content/uploads/2018/06/turma-pokemon-png.png",
     alt: "Proyect 1",
-    description: "1- Juegos Ecommerce",
-  
+    description: "1- Pokemon-app",
+   
   },
   {
-    src: "https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-con-sables-de-luz-9229.jpg?s=large",
+    src: "imagensound.png",
     alt: "Proyect 2",
-    description: "2- Buscador de Rick&Morty",
+    description: "2- Social-sound-app",
     
   },
   {
-    src: "https://www.xtrafondos.com/wallpapers/resized/pikachu-y-raichu-6885.jpg?s=large",
+    src: "https://www.xtrafondos.com/wallpapers/resized/la-vida-de-deadpool-10037.jpg?s=large",
     alt: "Proyect 3",
-    description: "3- Poke Api",
-   
-  },
+    description: "3- Juegos-Ecommerce-app",
+  
+  }
 ];

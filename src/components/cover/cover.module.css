@@ -24,22 +24,61 @@
     font-size: 100px;
 }
 
+
 .containerCover > p {
     margin-top: 10px;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 50px;
+    position: relative;
+}
+.containerCover > p::before{
+    content: attr(data-text);
+    position: absolute;
+    color: rgb(0, 139, 193);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #ffff;
+    animation: animate 8s linear infinite;
+
+}
+@keyframes animate{
+ 0%, 10%, 100%{
+  width: 0;
+ }
+ 70%, 90%{
+    width: 100%;
+ }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 766px) {
     .containerCover > h1 {
         text-align: center;
-        font-size: 70px;
+        font-size: 60px;
     }
     .containerCover > p {
-        margin-top: 10px;
-        font-size: 25px;
-        width: 85%;
+        margin-top: 6px;
+        font-size: 12px;
+        width: 100%;
         text-align: center;
+        position: relative;
     }
+    .containerCover > p::before{
+        content: attr(data-text);
+        position: absolute;
+        color: rgb(0, 139, 193);
+        overflow: hidden;
+        white-space: wrap;
+        border-right: 4px solid #ffff;
+        animation: animate 8s linear infinite;
+    
+    }
+    @keyframes animate{
+        0%, 10%, 100%{
+         width: 0;
+        }
+       70%, 90%{
+           width: 80%;
+        }
+       }
 
 }

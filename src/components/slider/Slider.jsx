@@ -18,7 +18,7 @@ const Slider = () => {
   return (
     <div className="slider-container">
       <div className="slider-title">
-        <h3>Proyectos</h3>
+        <h2 data-text='Proyectos'>Proyectos</h2>
       </div>
       
       <Carrousel item={items} />

@@ -1,17 +1,21 @@
 .slider-container{
    display: flex;
    vertical-align: center;
+   justify-content: space-evenly;
    align-items: center;
-   background-color: rgb(0, 59, 104);
+   background-color: black;
    padding: 20px 0 20px 0;
+   height: max-content;
 }
 
 .slider-title{
-color: white;
-width: 40%;
+color: rgb(246, 242, 242);
+width: 15%;
 padding: 0 70px 0 70px;
 } 
-
+.slider-title h2{
+    position: relative;
+}
  .carousel-container{
     width: 500px;
     height: 80%;
@@ -21,11 +25,20 @@ padding: 0 70px 0 70px;
     border-radius: 50px;
     object-fit: contain;
 
+}
+.div-img{
+    width: 700px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 12px;
 } 
+
 .carousel-img  {
-    object-fit: cover; 
+    object-fit: contain; 
     width: 500px; 
+    height: auto;
     transition: all 0.2s ease-in-out;
+    
 }
 .carousel-img:hover {
    transform: scale(1.1);
@@ -37,8 +50,8 @@ padding: 0 70px 0 70px;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 70%;
-    padding-right: 30px;
+    width: 66%;
+    padding-right: 15px;
     margin-right: 10px ;
     border-top-right-radius: 35px;
     opacity: 0.8;
@@ -50,20 +63,86 @@ padding: 0 70px 0 70px;
     font-size: 20px;
     padding: 10px 0 10px 10px;
 }
-@media only screen and (max-width: 960px ){
+
+.slider-title > h2::before{
+    content: attr(data-text);
+    position: absolute;
+    color: rgb(0, 139, 193);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #ffff;
+    animation: animate 8s linear infinite;
+
+}
+@keyframes animate{
+ 0%, 10%, 100%{
+  width: 0;
+ }
+ 60% ,70%, 90%{
+    width: 100%;
+ }
+}
+
+@media only screen and (max-width: 766px ){
     .slider-container {
         flex-direction: column;
     }
+
     .slider-title {
         width: 100%;
         text-align: center;
         padding: 10px 0 10px 0;
     }
+    .slider-title h2{
+        color: rgb(246, 242, 242);
+        width: 15%;
+        font-size: large;
+        margin-left: 30px;
+        padding: 10px;
+        padding: 0 70px 0 70px;
+        } 
     .carousel-container{
-        width: 400px;
+        width: 270px;
     }
+    .carousel-description {
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        height: auto;
+        padding-right: 15px;
+        margin-right: 10px ;
+        border-top-right-radius: 35px;
+        opacity: 0.8;
+    }
+    .carousel-p {
+        color: white;
+        font-size: 12px;
+        padding: 10px 0 10px 10px;
+    }
+    .carousel button{
+        font-size: 9px;
+    }
+    .carousel button:hover{
+        background-color: aquamarine;
+    }
+    
     .carousel-img  {
-        width: 400px; 
-      
+        width: 270px; 
     }
+    .div-img{
+        width: 300px;
+        height: 180px;
+        object-fit: contain;
+        border-radius: 12px;
+    } 
+    @keyframes animate{
+        0%, 10%, 100%{
+         width: 0;
+        }
+        60% ,70%, 90%{
+           width: 55%;
+        }
+       }
 }

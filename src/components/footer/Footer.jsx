@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-info">
-        <p>Argentina, Buenos Aires</p>
+        <p>Argentina, Buenos Aires | Cordoba </p>
       </div>
       <div className="footer-contact">
         <h3>Contacto : <span>+541123517231</span> </h3>
@@ -29,11 +29,11 @@ const Footer = () => {
             <i className="fab fa-instagram instagram"></i>
           </a>
           <a
-            href="https://www.instagram.com/floresalanr/"
+            href="https://github.com/alanrflores"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-facebook facebook"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
       </div>
