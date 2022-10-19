@@ -57,8 +57,8 @@
     }
     .containerCover > p {
         margin-top: 6px;
-        font-size: 12px;
-        width: 100%;
+        font-size: 16px;
+        width: 330px;
         text-align: center;
         position: relative;
     }
@@ -77,8 +77,21 @@
          width: 0;
         }
        70%, 90%{
-           width: 80%;
+           width: 90%;
         }
        }
 
 }
+@media (min-width: 767px) and (max-width: 1024px) {
+    .containerCover > h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+    .containerCover > p {
+        margin-top: 6px;
+        font-size: 27px;
+        width: 500px;
+        text-align: center;
+        position: relative;
+    }
+} 
