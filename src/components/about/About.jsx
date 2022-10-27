@@ -23,8 +23,8 @@ const About = () => {
             decidí seguir en la facultad pero en ese momento estaba muy aislado ya que me sentía solo, sin motivación,
             me dedique a otra cosa! <br /> 
             Hoy siento que vuelvo realmente a hacer lo que me gusta.<br/>
-            Actualmente graduado de la carrera Full Stack Developer
-            donde he redescubierto mi pasión por eso, y estoy muy emocionado de comenzar a trabajar en tecnología...<br/>
+            Graduado de la carrera Full Stack Developer
+            donde he redescubierto mi pasión por eso, y estoy muy emocionado de seguir por este camino...<br/>
             <br/>
             Gracias por llegar hasta aca!
             </span>
