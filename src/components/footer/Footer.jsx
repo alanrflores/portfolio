@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer-sns">
         <div className="sns-link">
           <a
-            href="https://www.linkedin.com/in/alan-flores-184406171/"
+            href="https://www.linkedin.com/in/floresalan/"
             target="_blank"
             rel="noreferrer"
           >
