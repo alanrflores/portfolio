@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-info">
-        <p>Argentina, Buenos Aires | Cordoba </p>
+        <p>Argentina, Buenos Aires | Córdoba </p>
       </div>
       <div className="footer-contact">
-        <h3>Contacto : <span>+541123517231</span> </h3>
+        <h3>Contacto | <span>+541123517231</span> </h3>
       </div>
       
       <div className="footer-sns">

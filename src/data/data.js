@@ -1,6 +1,6 @@
 export const data = [
   {
-    src: "https://pngimage.net/wp-content/uploads/2018/06/turma-pokemon-png.png",
+    src: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pokemon-mas-populares-gengar-1561474289.jpg?crop=0.7494407158836689xw:1xh;center,top&resize=1200:*",
     alt: "Proyect 1",
     description: "1- Pokemon-app",
    
