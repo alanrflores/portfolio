@@ -30,6 +30,7 @@
     color: rgb(255, 255, 255);
     font-size: 50px;
     position: relative;
+    
 }
 .containerCover > p::before{
     content: attr(data-text);
