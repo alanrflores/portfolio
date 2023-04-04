@@ -7,7 +7,7 @@ const Cover = () => {
     <div className={style.containerCover}>
      <video className={style.video} src={coverVideo} autoPlay loop muted></video>
      <h1>Alan Rodrigo Flores</h1>
-     <p data-text="Full Stack Developer"></p>
+     <p data-text="Full Stack Developer | Front-end | Back-end "></p>
     </div>
   )
 }
